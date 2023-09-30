@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+    
+    
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgb(4, 26, 0) 1%, rgb(65, 142, 46) 28%, rgba(47,74,29,1) 51%, rgb(25, 92, 45) 70%, rgb(17, 43, 0) 100%, rgba(0,0,0,1) 139%); 
+    
+
+    background-size: 10000% 400%;
+    padding-left: 25%;
+    padding-right: 25%;
+    color: white;
+    text-align: center;
+    animation: gradient 15s ease infinite;
+}
+
+h1{
+    font-size: 90px;
+    
+}
+
+p1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5px;
+    
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
