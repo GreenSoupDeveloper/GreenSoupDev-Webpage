@@ -17,11 +17,44 @@ body {
     text-align: center;
     animation: gradient 15s ease infinite;
 }
-
-h1{
+@media only screen and (max-width: 50000px) {
+  .hello{
     font-size: 90px;
+  }
+  .helloAbout{
+    font-size: 85px;
+  }
+  .gifT{
+    opacity: 30%;
+    visibility: visible;
+  }
+  .gifAbouts{
     
+    visibility: visible;
+  }
+ /*desktop version*/
 }
+
+@media only screen and (max-width: 580px) {
+  .hello{
+    font-size: 25px;
+  }
+  .helloAbout{
+    font-size: 25px;
+  }
+  .gifT{
+    opacity: 30%;
+    visibility: hidden;
+  }
+  .gifAbouts{
+    
+    visibility: hidden;
+  }
+ 
+   /*mobile version*/
+  
+}
+
 
 p1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
