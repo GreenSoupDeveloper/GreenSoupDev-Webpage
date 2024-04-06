@@ -3,6 +3,14 @@
 width: 320px;
 height: 240px;
 }
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+ 
+}
 .downloadbutton {
   background: rgb(0,0,0);
   background: linear-gradient(90deg,rgba(0,0,0,1) 1%,rgb(24, 61, 0) 100%,rgb(25, 92, 45) 100%, rgba(47,74,29,1) 100%, rgba(47,74,29,1) 100%,rgb(99, 134, 0) 100%, rgb(65, 142, 46) 28%,rgb(4, 26, 0) 1%);
